@@ -19,7 +19,7 @@ public class LiberacaoSaida extends JFrame {
 		Bar controle = c;
 		
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setUndecorated(true);
+		setUndecorated(false);
 		setBounds(100, 100, 430, 150);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
