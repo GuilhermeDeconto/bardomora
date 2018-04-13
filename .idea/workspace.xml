@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9216dcdc-99be-4275-b1b2-be81e3476167" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persistence/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/persistence/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uinterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uinterface/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uinterface/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="252">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocioTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/SocioTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClienteTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/ClienteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BarTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/BarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="156" column="55" selection-start-line="156" selection-start-column="55" selection-end-line="156" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,7 +59,7 @@
       <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="247">
               <caret line="51" column="93" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
             </state>
           </provider>
@@ -40,15 +68,10 @@
       <file leaf-file-name="Bar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="139">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bardomora.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bardomora.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Socio.java" pinned="false" current-in-tab="false">
@@ -62,6 +85,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,6 +102,9 @@
         <option value="$PROJECT_DIR$/src/business/Bar.java" />
         <option value="$PROJECT_DIR$/src/persistence/Cliente.java" />
         <option value="$PROJECT_DIR$/src/uinterface/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/SocioTest.java" />
+        <option value="$PROJECT_DIR$/src/test/ClienteTest.java" />
+        <option value="$PROJECT_DIR$/src/test/BarTest.java" />
       </list>
     </option>
   </component>
@@ -82,7 +115,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="66" />
+    <option name="x" value="65" />
     <option name="y" value="80" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
@@ -126,6 +159,12 @@
               <item name="bardomora" type="b2602c69:ProjectViewProjectNode" />
               <item name="bardomora" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bardomora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bardomora" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="uinterface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -147,6 +186,7 @@
       <recent name="C:\Users\17103456\Desktop\bardomora" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
       <recent name="business" />
       <recent name="persistence" />
     </key>
@@ -166,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BarTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -183,6 +223,98 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bardomora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BarTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BarTest.testaPercentualDeNaoSocios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bardomora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BarTest" />
+      <option name="METHOD_NAME" value="testaPercentualDeNaoSocios" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ClienteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bardomora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ClienteTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SocioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bardomora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SocioTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -235,8 +367,19 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.SocioTest" />
+      <item itemvalue="JUnit.ClienteTest" />
+      <item itemvalue="JUnit.BarTest" />
+      <item itemvalue="JUnit.BarTest.testaPercentualDeNaoSocios" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarTest" />
+        <item itemvalue="JUnit.BarTest.testaPercentualDeNaoSocios" />
+        <item itemvalue="JUnit.ClienteTest" />
+        <item itemvalue="JUnit.SocioTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -252,15 +395,48 @@
       <option name="presentableId" value="Default" />
       <updated>1523575159252</updated>
       <workItem from="1523575166303" duration="1404000" />
-      <workItem from="1523578041179" duration="2908000" />
+      <workItem from="1523578041179" duration="5917000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ClienteTest - 2018.04.12 at 23h 33m 40s.xml">
+      <configuration name="ClienteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 40m 51s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 42m 19s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 42m 51s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 48m 51s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest_testaPercentualDeNaoSocios - 2018.04.12 at 23h 49m 09s.xml">
+      <configuration name="BarTest.testaPercentualDeNaoSocios" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest_testaPercentualDeNaoSocios - 2018.04.12 at 23h 49m 30s.xml">
+      <configuration name="BarTest.testaPercentualDeNaoSocios" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 49m 38s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 50m 00s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 50m 32s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4312000" />
+    <option name="totallyTimeSpent" value="7321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -271,9 +447,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028653" side_tool="true" weight="0.32972974" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41913748" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37331536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" visible="true" weight="0.32884097" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
@@ -324,6 +500,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bardomora.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/bardomora/uinterface/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1701#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/persistence/Socio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -331,27 +519,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/uinterface/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/SocioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="65" column="48" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
+        <state relative-caret-position="247">
           <caret line="51" column="93" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="139">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bardomora.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uinterface/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/ClienteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="1054">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/BarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="156" column="55" selection-start-line="156" selection-start-column="55" selection-end-line="156" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
