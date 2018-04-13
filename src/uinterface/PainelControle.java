@@ -22,8 +22,8 @@ public class PainelControle extends JFrame {
 	public PainelControle() {
 		controle = new Bar();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setUndecorated(true);
-		setBounds(100, 100, 400, 375);
+		setUndecorated(false);
+		setBounds(200, 200, 500, 475);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);

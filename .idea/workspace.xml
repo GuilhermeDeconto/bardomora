@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9216dcdc-99be-4275-b1b2-be81e3476167" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ArquivosDeDados/TabelaCliente.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uinterface/PainelControle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uinterface/Relatorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bardomora/business/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bardomora/business/Bar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bardomora/persistence/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bardomora/persistence/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bardomora/persistence/Socio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bardomora/test/BarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bardomora/test/BarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bardomora/test/ClienteTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bardomora/test/SocioTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bardomora/uinterface/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uinterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Mensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Mensagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquivosDeDados/TabelaCliente.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ArquivosDeDados/TabelaCliente.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uinterface/PainelControle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uinterface/PainelControle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -69,8 +55,8 @@
       <file leaf-file-name="PainelControle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uinterface/PainelControle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="119">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bar.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="184">
+              <caret line="38" column="69" lean-forward="true" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/uinterface/Main.java" />
         <option value="$PROJECT_DIR$/src/test/ControleTeste.java" />
         <option value="$PROJECT_DIR$/src/test/BarTest.java" />
-        <option value="$PROJECT_DIR$/src/uinterface/PainelControle.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java" />
         <option value="$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java" />
@@ -179,6 +164,7 @@
         <option value="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" />
         <option value="$PROJECT_DIR$/src/utils/Mensagem.java" />
         <option value="$PROJECT_DIR$/src/business/Bar.java" />
+        <option value="$PROJECT_DIR$/src/uinterface/PainelControle.java" />
       </list>
     </option>
   </component>
@@ -484,7 +470,7 @@
       <updated>1523575159252</updated>
       <workItem from="1523575166303" duration="1404000" />
       <workItem from="1523578041179" duration="5917000" />
-      <workItem from="1523636351057" duration="4014000" />
+      <workItem from="1523636351057" duration="4699000" />
     </task>
     <servers />
   </component>
@@ -521,10 +507,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11335000" />
+    <option name="totallyTimeSpent" value="12020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -535,12 +522,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028653" side_tool="true" weight="0.32972974" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37331536" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37331536" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" weight="0.32884097" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657718" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -771,26 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uinterface/PainelControle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -838,8 +805,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        <state relative-caret-position="184">
+          <caret line="38" column="69" lean-forward="true" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uinterface/PainelControle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -30,7 +30,7 @@ public class LiberacaoEntrada extends JFrame {
 	public LiberacaoEntrada(Bar c) {
 		Bar controle = c;
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setUndecorated(true);
+		setUndecorated(false);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
