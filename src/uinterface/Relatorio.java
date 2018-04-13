@@ -19,7 +19,7 @@ public class Relatorio extends JFrame {
 	public Relatorio() {
 		controle = new ControleRelatorio();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setUndecorated(true);
+		setUndecorated(false);
 		setBounds(100, 100, 400, 775);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));

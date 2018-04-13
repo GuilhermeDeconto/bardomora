@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9216dcdc-99be-4275-b1b2-be81e3476167" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ArquivosDeDados/TabelaCliente.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ArquivosDeDados/TabelaCliente.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uinterface/PainelControle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uinterface/PainelControle.java" afterDir="false" />
-    </list>
+    <list default="true" id="9216dcdc-99be-4275-b1b2-be81e3476167" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="LiberacaoSaida.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+            <state relative-caret-position="357">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +39,8 @@
       <file leaf-file-name="LiberacaoEntrada.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+            <state relative-caret-position="187">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,8 +51,8 @@
       <file leaf-file-name="PainelControle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uinterface/PainelControle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="130">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,6 +133,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setUndec</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -158,13 +159,13 @@
         <option value="$PROJECT_DIR$/src/test/ControleTeste.java" />
         <option value="$PROJECT_DIR$/src/test/BarTest.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java" />
-        <option value="$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java" />
         <option value="$PROJECT_DIR$/ArquivosDeDados/TabelaCliente.txt" />
         <option value="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" />
         <option value="$PROJECT_DIR$/src/utils/Mensagem.java" />
         <option value="$PROJECT_DIR$/src/business/Bar.java" />
         <option value="$PROJECT_DIR$/src/uinterface/PainelControle.java" />
+        <option value="$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java" />
+        <option value="$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java" />
       </list>
     </option>
   </component>
@@ -470,7 +471,7 @@
       <updated>1523575159252</updated>
       <workItem from="1523575166303" duration="1404000" />
       <workItem from="1523578041179" duration="5917000" />
-      <workItem from="1523636351057" duration="4699000" />
+      <workItem from="1523636351057" duration="4975000" />
     </task>
     <servers />
   </component>
@@ -507,11 +508,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12020000" />
+    <option name="totallyTimeSpent" value="12296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -522,9 +522,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028653" side_tool="true" weight="0.32972974" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37331536" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37331536" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" visible="true" weight="0.32884097" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657718" />
@@ -776,30 +776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/Mensagem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,8 +795,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uinterface/PainelControle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="130">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
