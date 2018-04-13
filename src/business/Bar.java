@@ -1,108 +1,90 @@
 package business;
 
 import persistence.Cliente;
-import persistence.Socio;
-
-import java.util.ArrayList;
+import persistence.Conexao;
+import utils.Genero;
+import utils.Mensagem;
+import java.util.HashMap;
 
 public class Bar {
-	private ArrayList<Cliente> clientes;
 
-	public Bar() {
-		clientes = new ArrayList<>();
+	private HashMap<String, Cliente> clientesCadastrados;
+	private HashMap<String, Cliente> clientesNaCasa;
+	private Conexao conexao = new Conexao();
+
+
+	public void cadastraCliente(Cliente cliente){
+		if (buscaClienteCadastrado(cliente.getCpf()) == null){
+			getClientesCadastrados().put(cliente.getCpf(), cliente);
+			conexao.salvaDadosTabelaCliente(cliente);
+		}
+		liberaAcessoCliente(cliente);
 	}
 
-	public boolean entrada(Cliente cl) {
-		return clientes.add(cl);
+	public HashMap<String, Cliente> getClientesCadastrados() {
+		return clientesCadastrados;
 	}
 
-	public boolean saidaCliente(String cpf) {
-		for (int i = 0; i < clientes.size(); i++) {
-			if (clientes.get(i).getCpf().equals(cpf)) {
-				clientes.remove(i);
-				return true;
+	public HashMap<String, Cliente> getClientesNaCasa() {
+		return clientesNaCasa;
+	}
+	public Bar(){
+		setClientesCadastrados(new HashMap<>());
+		clientesNaCasa = new HashMap<>();
+	}
+
+	public void liberaSaidaCliente(String cpf){
+		Cliente c = clientesNaCasa.remove(cpf);
+		if (c == null){
+			Mensagem.avisoMensagemCPFNaoEncontradoEmClientesNaCasa();
+		} else {
+			conexao.salvaDadosTabelaHistoricoClienteSaida(c);
+		}
+	}
+
+	public void liberaAcessoCliente(Cliente cliente) {
+		if(buscaClienteNaCasa(cliente.getCpf()) == null){
+			clientesNaCasa.put(cliente.getCpf(), cliente);
+			conexao.salvaDadosTabelaHistoricoClienteEntrada(cliente);
+		} else {
+			Mensagem.avisoClienteEncontradoNaCasa();
+		}
+	}
+
+	public Cliente buscaClienteCadastrado(String cpf){
+		return getClientesCadastrados().get(cpf);
+	}
+
+	public Cliente buscaClienteNaCasa(String cpf){
+		return getClientesNaCasa().get(cpf);
+	}
+
+	public int qtdClientesMasc() {
+		int cont = 0;
+		for (Cliente clienteDTO : clientesNaCasa.values()) {
+			if(clienteDTO.getGenero().equals(Genero.M)){
+				cont++;
 			}
 		}
-		return false;
-
+		return cont;
 	}
 
-	public Cliente getClientePorCPF(String cpf) {
-		for (int i = 0; i < clientes.size(); i++) {
-			if (clientes.get(i).getCpf().equals(cpf)) {
-				return clientes.get(i);
+	public int qtdClientesSocios() {
+		int cont = 0;
+		for (Cliente clienteDTO : clientesNaCasa.values()) {
+			if(getClientesCadastrados().containsKey(clienteDTO.getCpf())){
+				cont++;
 			}
 		}
-		return null;
+		return cont;
 	}
 
-	public int publico() {
-		return clientes.size();
+	public void setClientesCadastrados(HashMap<String, Cliente> clientesCadastrados) {
+		this.clientesCadastrados = conexao.carregaArquivoDadosTabelaCliente();
 	}
 
-	public int publicoMasculino() {
-		int numHomens = 0;
-		for (int i = 0; i < clientes.size(); i++) {
-			if (clientes.get(i).getGenero().equalsIgnoreCase("M")) {
-				numHomens++;
-			}
-		}
-		return numHomens;
-	}
-	public int publicoFeminino() {
-		int numMulheres = 0;
-		for (int i = 0; i < clientes.size(); i++) {
-			if (clientes.get(i).getGenero().equalsIgnoreCase("F")) {
-				numMulheres++;
-			}
-		}
-		return numMulheres;
-	}
-
-	public int publicoSocio(){
-		int numSocios = 0;
-		for (int i =0; i< clientes.size(); i++){
-			if(clientes.get(i) instanceof Socio){
-				numSocios++;
-			}
-		}
-		return numSocios;
-	}
-
-	public int publicoNormal(){
-		int numNormal = 0;
-		numNormal = clientes.size() - publicoSocio();
-		return numNormal;
-	}
-
-	public int percentHomens(){
-		int phomens = Math.round(((float) publicoMasculino() / (float) publico()) * 100);
-		return phomens;
-	}
-
-	public int percentMulheres() {
-		int pmulheres = Math.round(((float) publicoFeminino() / (float) publico()) * 100);
-		return pmulheres;
-	}
-
-	public int percentSocios(){
-		int psocios = Math.round(((float) publicoSocio()/ (float)publico())*100);
-		return psocios;
-	}
-
-	public int percentNormal(){
-		int pnormal = Math.round(((float) publicoNormal()/ (float)publico())*100);
-		return pnormal;
-	}
-
-
-	@Override
-	public String toString() {
-		String saida = "";
-		for (int i = 0; i < clientes.size(); i++) {
-			saida = clientes.toString() + "\n";
-		}
-		return "Bar:" + saida;
+	public void encerraEspediente(){
+		conexao.encerraEspediente(clientesNaCasa);
 	}
 
 }
