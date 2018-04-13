@@ -36,6 +36,7 @@ public class LiberacaoEntrada extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		contentPane.setBackground(new Color(255, 217, 179));
 		
 		JLabel lblNmSocio = new JLabel("N\u00FAmero de s\u00F3cio");
 		lblNmSocio.setFont(new Font("Tahoma", Font.PLAIN, 16));

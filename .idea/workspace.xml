@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60bb98e9-ef21-44f0-aeca-ff44175bbf04" name="Default" comment="Alterado">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+
+    <list default="true" id="9216dcdc-99be-4275-b1b2-be81e3476167" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bardomora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bardomora.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/business/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bardomora/business/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bardomora/business/Bar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bardomora/uinterface/Relatorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bardomora/uinterface/Relatorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uinterface/PainelControle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uinterface/PainelControle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,33 +18,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="68">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Validador.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/Validador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
-                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PainelControle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uinterface/PainelControle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="136" column="72" lean-forward="true" selection-start-line="136" selection-start-column="72" selection-end-line="136" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -56,54 +35,21 @@
       <file leaf-file-name="LiberacaoSaida.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LiberacaoEntrada.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bar.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="272">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-                <element signature="e#1546#1547#0" expanded="true" />
-                <element signature="e#2144#2145#0" expanded="true" />
-                <element signature="e#2192#2193#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conexao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/persistence/Conexao.java">
+
+      <file leaf-file-name="PainelControle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/uinterface/PainelControle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="102">
+              <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
               <folding>
                 <element signature="e#452#453#0" expanded="true" />
                 <element signature="e#560#561#0" expanded="true" />
@@ -121,13 +67,40 @@
       </file>
     </leaf>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setUndec</find>
+    </findStrings>
+  </component>
+
+        <option value="$PROJECT_DIR$/src/persistence/Socio.java" />
+        <option value="$PROJECT_DIR$/src/test/SocioTest.java" />
+        <option value="$PROJECT_DIR$/src/test/ClienteTest.java" />
+        <option value="$PROJECT_DIR$/src/persistence/ConexaoRelatorio.java" />
+        <option value="$PROJECT_DIR$/src/persistence/HistoricoClienteDTO.java" />
+        <option value="$PROJECT_DIR$/src/persistence/Cliente.java" />
+        <option value="$PROJECT_DIR$/src/persistence/Conexao.java" />
+        <option value="$PROJECT_DIR$/src/utils/EntradaSaida.java" />
+        <option value="$PROJECT_DIR$/src/utils/Genero.java" />
+        <option value="$PROJECT_DIR$/src/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/business/ControleRelatorio.java" />
+        <option value="$PROJECT_DIR$/src/uinterface/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/ControleTeste.java" />
+        <option value="$PROJECT_DIR$/src/test/BarTest.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/ArquivosDeDados/TabelaCliente.txt" />
+        <option value="$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt" />
         <option value="$PROJECT_DIR$/src/utils/Mensagem.java" />
+        <option value="$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java" />
+        <option value="$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java" />
+        <option value="$PROJECT_DIR$/src/uinterface/Relatorio.java" />
         <option value="$PROJECT_DIR$/src/business/Bar.java" />
         <option value="$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java" />
       </list>
@@ -267,13 +240,16 @@
       <created>1523642066785</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523642066785</updated>
-      <workItem from="1523642070456" duration="4060000" />
+      <updated>1523575159252</updated>
+      <workItem from="1523575166303" duration="1404000" />
+      <workItem from="1523578041179" duration="5917000" />
+      <workItem from="1523636351057" duration="7129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4060000" />
+
+    <option name="totallyTimeSpent" value="14450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -281,20 +257,21 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32965517" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33793104" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2076823" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32884097" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028653" side_tool="true" weight="0.32972974" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37331536" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" weight="0.32884097" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657718" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -363,14 +340,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/EventQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="555" selection-start-line="555" selection-end-line="555" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ArquivosDeDados/TabelaHistoricoCliente.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/awt/EventDispatchThread.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="115" selection-start-line="115" selection-end-line="115" />
@@ -423,19 +396,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/uinterface/Relatorio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/Validador.java">
+    <entry file="file://$PROJECT_DIR$/ArquivosDeDados/TabelaCliente.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
           <folding>
-            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -447,24 +438,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoEntrada.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uinterface/LiberacaoSaida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uinterface/PainelControle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
           <folding>
             <element signature="e#711#712#0" expanded="true" />
             <element signature="e#739#740#0" expanded="true" />

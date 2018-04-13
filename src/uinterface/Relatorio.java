@@ -5,6 +5,7 @@ import utils.Utils;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.time.Month;
@@ -19,12 +20,13 @@ public class Relatorio extends JFrame {
 	public Relatorio() {
 		controle = new ControleRelatorio();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setUndecorated(true);
+		setUndecorated(false);
 		setBounds(100, 100, 400, 775);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		contentPane.setBackground(new Color(255, 217, 179));
 		
 		int distanciaDoPrimeiro = 75;
 		int distancia = 20;
