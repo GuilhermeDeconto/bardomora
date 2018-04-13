@@ -28,6 +28,7 @@ public class PainelControle extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		contentPane.setBackground(new Color(255, 217, 179));
 		
 		JButton btnLiberarSada = new JButton("Liberar Sa\u00EDda");
 		btnLiberarSada.addActionListener(new ActionListener() {
@@ -41,7 +42,7 @@ public class PainelControle extends JFrame {
 			}
 		});
 		btnLiberarSada.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnLiberarSada.setBounds(104, 13, 189, 25);
+		btnLiberarSada.setBounds(154, 13, 190, 25);
 		contentPane.add(btnLiberarSada);
 		
 		JButton btnLiberarEntrada = new JButton("Liberar Entrada");
@@ -56,7 +57,7 @@ public class PainelControle extends JFrame {
 			}
 		});
 		btnLiberarEntrada.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnLiberarEntrada.setBounds(104, 51, 189, 25);
+		btnLiberarEntrada.setBounds(154, 51, 190, 25);
 		contentPane.add(btnLiberarEntrada);
 		
 		JLabel lblQuantidadeDeClientes = new JLabel("Quantidade de cliente da casa:");
@@ -122,7 +123,7 @@ public class PainelControle extends JFrame {
 				}
 			}
 		});
-		btnConsultarCpf.setBounds(203, 225, 150, 25);
+		btnConsultarCpf.setBounds(230, 225, 145, 25);
 		contentPane.add(btnConsultarCpf);
 		
 		JButton btnAtualizar = new JButton("Atualizar");
