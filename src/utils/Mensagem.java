@@ -24,7 +24,7 @@ public class Mensagem {
 	}
 	
 	public static void avisoClienteCadastradoComSucesso(int id){
-		JOptionPane.showMessageDialog(null, "Cliente cadastrado com sucesso.\nO número do sócio é: " + id +"." ,"Informa��o!",JOptionPane.WARNING_MESSAGE);
+		JOptionPane.showMessageDialog(null, "Cliente cadastrado com sucesso.\nO número do sócio é: " + id +"." ,"Informação!",JOptionPane.WARNING_MESSAGE);
 	}
 	
 	public static void avisoClienteEncontradoNaCasa(){
