@@ -4,169 +4,132 @@ import business.Bar;
 import org.junit.Before;
 import org.junit.Test;
 import persistence.Cliente;
-import persistence.Socio;
+import utils.Genero;
 
 import static org.junit.Assert.assertEquals;
 
 public class BarTest {
-	private Bar b;
 
+	private Bar controle;
+	private Cliente cliente;
+	private Cliente cliente2;
+	
 	@Before
-	public void setUp() throws Exception {
-		b = new Bar();
-		Cliente c1 = new Cliente("Vitor Luiz", "98261823713", 22, "M");
-		Cliente c2 = new Cliente("Alicia", "42365375458", 25, "F");
-		Cliente c3 = new Cliente("Yuri","16786254901",30,"M");
-		Cliente c4 = new Cliente("Joao","15627314614",69,"M");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
+	public void set(){
+		controle = new Bar();
+		cliente = new Cliente("Joao Teste", "111111111", 23, Genero.M, controle.getClientesCadastrados().size());
+		cliente2 = new Cliente("Alicia Teste", "2222222222", 18, Genero.F, controle.getClientesCadastrados().size());
 	}
 
-	@Test
-	public void testaSaidaCliente() {
-		b.saidaCliente("16786254901");
-		assertEquals(3, b.publico());
-	}
 
 	@Test
-	public void testaPublico() {
-		Cliente c1 = new Cliente("Vitor Luiz", "98261823713", 22, "M");
-		Cliente c2 = new Cliente("Alicia", "42365375458", 25, "F");
-		Cliente c3 = new Cliente("Yuri","16786254901",30,"M");
-		Cliente c4 = new Cliente("Joao","15627314614",69,"M");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(8, b.publico());
-	}
-
-	@Test
-	public void testaSaidaClienteInvalido() {
-		assertEquals(false, b.saidaCliente("123"));
-	}
-
-	@Test
-	public void testaBuscaCliente() {
-		Cliente cb = b.getClientePorCPF("98261823713");
-		assertEquals(cb, b.getClientePorCPF("98261823713"));
-	}
-
-	@Test
-	public void testaBuscaClienteInvalido() {
-		assertEquals(null, b.getClientePorCPF("54"));
-	}
-
-	@Test
-	public void testaQuantidadeDeHomens() {
-		Cliente c1 = new Cliente("Lucindo", "01531075029", 20, "M");
-		Cliente c2 = new Cliente("Ademir", "4676900545", 20, "M");
-		Cliente c3 = new Cliente("Julio", "16786254901", 20, "M");
-		Cliente c4 = new Cliente("Alicia", "15627314614", 20, "F");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(6, b.publicoMasculino());
-	}
-
-	@Test
-	public void testaQuantidadeDeMulheres() {
-		Cliente c1 = new Socio("Lucinda", "01531075029", 26, "F", 109);
-		Cliente c2 = new Cliente("Maria Lucia", "4676900545", 27, "F");
-		Cliente c3 = new Cliente("Nicole", "16786254901", 22, "F");
-		Cliente c4 = new Cliente("Maria", "15627314614", 19, "F");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(5, b.publicoFeminino());
-	}
-
-	@Test
-	public void testaPublicSocio() {
-		Cliente c1 = new Socio("Lucinda", "01531075029", 26, "F", 109);
-		Cliente c2 = new Socio("Maria Lucia", "4676900545", 27, "F", 056);
-		Cliente c3 = new Socio("Nicole", "16786254901", 22, "F", 002);
-		Cliente c4 = new Socio("Maria", "15627314614", 19, "F", 334);
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(4, b.publicoSocio());
-	}
-
-	@Test
-	public void testaPublicoNaoSocio() {
-		Cliente c1 = new Socio("Lucinda", "01531075029", 26, "F", 109);
-		Cliente c2 = new Cliente("Maria Lucia", "4676900545", 27, "F");
-		Cliente c3 = new Cliente("Nicole", "16786254901", 22, "F");
-		Cliente c4 = new Cliente("Maria", "15627314614", 19, "F");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(7, b.publicoNormal());
-	}
-
-	@Test
-	public void testaPercentualDeMulheres() {
-		Cliente c1 = new Socio("Lucinda", "01531075029", 26, "F", 109);
-		Cliente c2 = new Cliente("Maria Lucia", "4676900545", 27, "F");
-		Cliente c3 = new Cliente("Nicole", "16786254901", 22, "F");
-		Cliente c4 = new Cliente("Maria", "15627314614", 19, "F");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(63, b.percentMulheres());
-	}
-
-	@Test
-	public void testaPercentualDeHomens() {
-		Cliente c1 = new Socio("Lucinda", "01531075029", 26, "F", 109);
-		Cliente c2 = new Cliente("Maria Lucia", "4676900545", 27, "F");
-		Cliente c3 = new Cliente("Nicole", "16786254901", 22, "F");
-		Cliente c4 = new Cliente("Maria", "15627314614", 19, "F");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(38, b.percentHomens());
-	}
-
-	@Test
-	public void testaPercentualDeSocios() {
-		Cliente c1 = new Socio("Lucinda", "01531075029", 26, "F", 109);
-		Cliente c2 = new Cliente("Maria Lucia", "4676900545", 27, "F");
-		Cliente c3 = new Cliente("Nicole", "16786254901", 22, "F");
-		Cliente c4 = new Cliente("Maria", "15627314614", 19, "F");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(13, b.percentSocios());
-	}
-
-	@Test
-	public void testaPercentualDeNaoSocios() {
-		Cliente c1 = new Socio("Lucinda", "01531075029", 26, "F", 109);
-		Cliente c2 = new Cliente("Maria Lucia", "4676900545", 27, "F");
-		Cliente c3 = new Cliente("Nicole", "16786254901", 22, "F");
-		Cliente c4 = new Cliente("Maria", "15627314614", 19, "F");
-		b.entrada(c1);
-		b.entrada(c2);
-		b.entrada(c3);
-		b.entrada(c4);
-		assertEquals(88, b.percentNormal());
+	public void testeCadastraNovoUsuario(){
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
 	}
 	
 	@Test
-	public void testaToString(){
-		String msg=b.toString();
-		assertEquals(msg, b.toString());
+	public void testeLiberarAcessoSemCadastrar(){
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
 	}
+	
+	@Test
+	public void testeLiberarSaidaCliente(){
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+		controle.liberaSaidaCliente(cliente.getCpf());
+		assertEquals(0, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+	}
+	
+	@Test
+	public void testeLiberarSaidaClienteNaoCadastrado(){
+		controle.liberaAcessoCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(0, controle.getClientesCadastrados().size());
+		controle.liberaSaidaCliente(cliente.getCpf());
+		assertEquals(0, controle.getClientesNaCasa().size());
+		assertEquals(0, controle.getClientesCadastrados().size());
+	}
+	
+	@Test
+	public void testeLiberarEntradaClienteViaCPF(){
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+		controle.liberaSaidaCliente(cliente.getCpf());
+		assertEquals(0, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+		controle.liberaAcessoCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+	}
+	
+	@Test
+	public void testeLiberarSaidaSemNenhumClienteNaCasa(){
+		controle.liberaSaidaCliente(cliente.getCpf());
+	}
+	
+	@Test
+	public void testeLiberarSaidaCPFErrado(){
+		controle.liberaSaidaCliente("00000000000");
+	}
+	
+	@Test
+	public void testeCadastrarDoisSociosComMesmoCPF(){
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+		controle.liberaSaidaCliente(cliente.getCpf());
+		assertEquals(0, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+	}
+	
+	@Test
+	public void testeCadastrarDuasVezesMesmoCliente(){
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+	}
+	
+	@Test
+	public void testeLiberarAcessoECadastrarSocioSemQueEleSaia(){
+		controle.liberaAcessoCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(0, controle.getClientesCadastrados().size());
+		controle.cadastraCliente(cliente);
+		assertEquals(1, controle.getClientesNaCasa().size());
+		assertEquals(1, controle.getClientesCadastrados().size());
+	}
+	
+	@Test
+	public void testeBuscarCPFValido(){
+		controle.cadastraCliente(cliente);
+		Cliente c = controle.buscaClienteCadastrado(cliente.getCpf());
+		assertEquals(cliente, c);
+	}
+	
+	@Test
+	public void testeBuscarCPFInvalido(){
+		Cliente c = controle.buscaClienteCadastrado(cliente.getCpf());
+		assertEquals(null, c);
+	}
+	
+	@Test
+	public void testeLiberarAcessoComCPFMenorQue11Digitos(){
+		Cliente cliente3 = new Cliente("Isabel Teste", "2222", 20, Genero.F, controle.getClientesCadastrados().size());
+		controle.liberaAcessoCliente(cliente3);
+	}
+	
 	
 }
