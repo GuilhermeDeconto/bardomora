@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9216dcdc-99be-4275-b1b2-be81e3476167" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/business/Bar.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -32,11 +32,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Bar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Socio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/persistence/Socio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="17">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -51,6 +60,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/uinterface/Main.java" />
         <option value="$PROJECT_DIR$/src/persistence/Socio.java" />
+        <option value="$PROJECT_DIR$/src/business/Bar.java" />
       </list>
     </option>
   </component>
@@ -93,6 +103,12 @@
               <item name="bardomora" type="b2602c69:ProjectViewProjectNode" />
               <item name="bardomora" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bardomora" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bardomora" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="persistence" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -116,14 +132,15 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\17103456\Desktop\bardomora\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="persistence" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\17103456\Desktop\bardomora" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="business" />
+      <recent name="persistence" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\17103456\Desktop\bardomora\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -208,12 +225,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523575159252</updated>
       <workItem from="1523575166303" duration="1404000" />
-      <workItem from="1523578041179" duration="224000" />
+      <workItem from="1523578041179" duration="466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1628000" />
+    <option name="totallyTimeSpent" value="1870000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -229,7 +246,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" visible="true" weight="0.32884097" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
@@ -284,17 +301,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/persistence/Socio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/persistence/Socio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
         </state>
       </provider>
     </entry>
