@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9216dcdc-99be-4275-b1b2-be81e3476167" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/BarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ClienteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/SocioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bardomora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bardomora.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +38,7 @@
       <file leaf-file-name="ClienteTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ClienteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
+            <state relative-caret-position="1054">
               <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
             </state>
           </provider>
@@ -51,8 +47,8 @@
       <file leaf-file-name="BarTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/BarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="157" column="65" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="65" />
+            <state relative-caret-position="637">
+              <caret line="156" column="55" selection-start-line="156" selection-start-column="55" selection-end-line="156" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +59,7 @@
       <file leaf-file-name="Cliente.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="247">
               <caret line="51" column="93" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
             </state>
           </provider>
@@ -72,8 +68,8 @@
       <file leaf-file-name="Bar.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+            <state relative-caret-position="139">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -399,23 +395,11 @@
       <option name="presentableId" value="Default" />
       <updated>1523575159252</updated>
       <workItem from="1523575166303" duration="1404000" />
-      <workItem from="1523578041179" duration="5599000" />
+      <workItem from="1523578041179" duration="5917000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SocioTest - 2018.04.12 at 22h 13m 13s.xml">
-      <configuration name="SocioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SocioTest - 2018.04.12 at 22h 14m 18s.xml">
-      <configuration name="SocioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SocioTest - 2018.04.12 at 22h 16m 19s.xml">
-      <configuration name="SocioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SocioTest - 2018.04.12 at 22h 19m 06s.xml">
-      <configuration name="SocioTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClienteTest - 2018.04.12 at 23h 33m 40s.xml">
       <configuration name="ClienteTest" configurationId="JUnit" />
     </history-entry>
@@ -428,9 +412,27 @@
     <history-entry file="BarTest - 2018.04.12 at 23h 42m 51s.xml">
       <configuration name="BarTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 48m 51s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest_testaPercentualDeNaoSocios - 2018.04.12 at 23h 49m 09s.xml">
+      <configuration name="BarTest.testaPercentualDeNaoSocios" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest_testaPercentualDeNaoSocios - 2018.04.12 at 23h 49m 30s.xml">
+      <configuration name="BarTest.testaPercentualDeNaoSocios" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 49m 38s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 50m 00s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BarTest - 2018.04.12 at 23h 50m 32s.xml">
+      <configuration name="BarTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7003000" />
+    <option name="totallyTimeSpent" value="7321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -446,8 +448,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32884097" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37331536" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37331536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49713466" visible="true" weight="0.32884097" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
@@ -498,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="51" column="93" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bardomora.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -524,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/uinterface/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -541,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ClienteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/SocioTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -555,10 +536,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/persistence/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="51" column="93" selection-start-line="51" selection-start-column="93" selection-end-line="51" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/business/Bar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ClienteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/BarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="157" column="65" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="65" />
+        <state relative-caret-position="637">
+          <caret line="156" column="55" selection-start-line="156" selection-start-column="55" selection-end-line="156" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
