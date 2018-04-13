@@ -34,6 +34,7 @@ public class Bar {
 	}
 
 	public void liberaSaidaCliente(String cpf){
+
 		Cliente c = clientesNaCasa.remove(cpf);
 		if (c == null){
 			Mensagem.avisoMensagemCPFNaoEncontradoEmClientesNaCasa();

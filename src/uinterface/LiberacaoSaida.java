@@ -1,7 +1,9 @@
 package uinterface;
 
 import business.Bar;
+import persistence.Cliente;
 import utils.Utils;
+import utils.Validador;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -42,7 +44,7 @@ public class LiberacaoSaida extends JFrame {
 		JButton btnLiberarSada = new JButton("Liberar sa\u00EDda");
 		btnLiberarSada.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				String cpf = textFieldCPF.getText();
+				String cpf = (Validador.retiraSinaisCPF(textFieldCPF.getText()));
 				controle.liberaSaidaCliente(cpf);
 			}
 		});
